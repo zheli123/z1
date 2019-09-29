@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*类型选择符，一般用来页面上某个标签的样式*/
+			p{
+				color: red;
+			}
+			/*类选择器，可以重复出现，可以有多个*/
+			.h{
+				color: blue;
+			}
+			/*群组选择符*/
+			.hh,#bb,h4,h5,h6{
+				background: green;
+			}
+			/*id选择器,不能出现重复id，且id名只能有一个*/
+			#bb{
+				color: gold;
+				/*background: green;*/
+			}
+			/*通配符，表示所有元素*/
+			*{
+				font-size: 30px;
+			}
+			/*后代选择器*/
+			/*#box span{
+				color: red;
+			}*/
+			
+			/*子选择器*/
+			#box>span{
+				color: red;
+			}
+			
+			/*伪类选择器*/
+			/*初始状态*/
+			a:link{
+				color: red;
+			}
+			/*访问后*/
+			a:visited{
+				color: green;
+			}
+			/*鼠标在上方时*/
+			a:hover{
+				color: black;
+			}
+			/*鼠标按下时*/
+			a:active{
+				color: brown;
+			}
+			
+			em:hover{
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2019-06-24
+        	描述：
+        -->
+		<p>jfhjsdfhjsd会发生的感觉好风光金黄色的</p>
+		<p>jfhjsdfhjsd会发生的感觉好风光金黄色的</p>
+		<p>jfhjsdfhjsd会发生的感觉好风光金黄色的</p>
+		<h3 class="h hh">动画技术股份收到回复该结婚啥的</h3>
+		<h3>动画技术股份收到回复该结婚啥的</h3>
+		<span class="h">结婚的规范化建设的股份合计</span>
+		<b id="bb">还是东方国际化的方式</b>
+		<b >还是东方国际化的方式</b>
+		<h4>记得看是否健康是的话</h4>
+		<h5>技术的汇丰国际大客户</h5>
+		<h6>就看得上飞机开始的恢复健康</h6>
+		<div id="box">
+			<span>的就是犯贱</span>
+			<h1>
+				<span>是东方国际和深刻的风格和电视房交会</span>
+			</h1>
+		</div>
+		<a href="#">baidu</a>
+		<em>粉红色的几个房间还是对购房计划</em>
+	</body>
+</html>
